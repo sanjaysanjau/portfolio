@@ -2556,14 +2556,17 @@ input[type="button"].btn--primary:focus {
  * ## skillbars
  * ------------------------------------------------------------------- */
 .skill-bars-fat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     list-style: none;
     margin: var(--vspace-2) 0 var(--vspace-1);
 }
 
 .skill-bars-fat li {
-    height: 5.2rem;
+    height: 5rem;
     background: transparent;
-    margin-bottom: 5.2rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
     padding: 0;
     position: relative;
 }
